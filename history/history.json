@@ -1,0 +1,98 @@
+{
+  "1fbb1d07e03d50da46f0bfe249163b82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da7c7e548eb57fb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419730181,
+        "stop" : 1599419914507,
+        "duration" : 184326
+      }
+    } ]
+  },
+  "8ad4c85ba366a26b61c81eb24fab6e8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2a29eb1a975950d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419328475,
+        "stop" : 1599419722451,
+        "duration" : 393976
+      }
+    } ]
+  },
+  "f1759809d83adea380768b1a2698172a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d948f04e49b3fda",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <li class=\"bqX bru\" data-tooltip=\"Видалити\" jsaction=\"zM6fo\" jscontroller=\"pmCKac\"></li> is not clickable at point (10, 10). Other element would receive the click: <div class=\"gb_3c gb_ad gb_bd\" style=\"min-width: 238px;\">...</div>\n  (Session info: chrome=85.0.4183.83)\nBuild info: version: '4.0.0-alpha-3', revision: '8c567de6dc'\nSystem info: host: 'NAZAR', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Nazar\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3b95fd925bbd7a7ab5de45f4e39320d3",
+      "time" : {
+        "start" : 1599419328462,
+        "stop" : 1599419727791,
+        "duration" : 399329
+      }
+    } ]
+  },
+  "e1ee95556e283add5df6c4b2358010e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67b66a7434090e44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419328445,
+        "stop" : 1599419707123,
+        "duration" : 378678
+      }
+    } ]
+  },
+  "aa8d9f3ae8794902410dc8fb41a68a48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44b3f2639e317b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419726819,
+        "stop" : 1599419920558,
+        "duration" : 193739
+      }
+    } ]
+  }
+}

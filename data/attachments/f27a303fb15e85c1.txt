@@ -1,0 +1,1 @@
+testSendAndDeleteLetter failed and screenshot taken!

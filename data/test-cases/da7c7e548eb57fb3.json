@@ -1,0 +1,1291 @@
+{
+  "uid" : "da7c7e548eb57fb3",
+  "name" : "testSendAndDeleteLetter",
+  "fullName" : "testcase.LogInSendLetterAndDeleteLetterTest.testSendAndDeleteLetter",
+  "historyId" : "1fbb1d07e03d50da46f0bfe249163b82",
+  "time" : {
+    "start" : 1599419730181,
+    "stop" : 1599419914507,
+    "duration" : 184326
+  },
+  "description" : "Verify Sending and Deleting of a letter",
+  "descriptionHtml" : "<p>Verify Sending and Deleting of a letter</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify Sending and Deleting of a letter",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Sending and Deleting of a letter",
+      "time" : {
+        "start" : 1599419730182,
+        "stop" : 1599419911197,
+        "duration" : 181015
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Initialize PageFactory in: pageobject.LoginPage",
+        "time" : {
+          "start" : 1599419730184,
+          "stop" : 1599419730189,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.LoginPage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Chrome driver is started",
+        "time" : {
+          "start" : 1599419730190,
+          "stop" : 1599419730208,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Chrome driver is started"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.HomePage",
+        "time" : {
+          "start" : 1599419742197,
+          "stop" : 1599419742198,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.HomePage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.HandleLettersPage",
+        "time" : {
+          "start" : 1599419742199,
+          "stop" : 1599419742202,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.HandleLettersPage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.SentLettersPage",
+        "time" : {
+          "start" : 1599419742203,
+          "stop" : 1599419742203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.SentLettersPage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.SingleLetterPage",
+        "time" : {
+          "start" : 1599419742208,
+          "stop" : 1599419742210,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.SingleLetterPage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.HomePage",
+        "time" : {
+          "start" : 1599419742211,
+          "stop" : 1599419742216,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.HomePage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Initialize PageFactory in: pageobject.SentLettersPage",
+        "time" : {
+          "start" : 1599419742218,
+          "stop" : 1599419742219,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Initialize PageFactory in: pageobject.SentLettersPage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Sending a default letter from: gavruloepam@gmail.com to recipient",
+        "time" : {
+          "start" : 1599419742220,
+          "stop" : 1599419742224,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Sending a default letter from: gavruloepam@gmail.com to recipient"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Setting data of the letter",
+        "time" : {
+          "start" : 1599419742242,
+          "stop" : 1599419742244,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Setting data of the letter"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Response from mail-transport: 250 2.0.0 OK  1599419741 j127sm1382168lfd.6 - gsmtp\n",
+        "time" : {
+          "start" : 1599419743543,
+          "stop" : 1599419743555,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Response from mail-transport: 250 2.0.0 OK  1599419741 j127sm1382168lfd.6 - gsmtp\n"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Going to URL: https://www.gmail.com/",
+        "time" : {
+          "start" : 1599419743602,
+          "stop" : 1599419743603,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Going to URL: https://www.gmail.com/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Submitting email",
+        "time" : {
+          "start" : 1599419763231,
+          "stop" : 1599419763232,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Submitting email"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: identifierId]",
+        "time" : {
+          "start" : 1599419763708,
+          "stop" : 1599419763712,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: identifierId]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: identifierNext]",
+        "time" : {
+          "start" : 1599419767386,
+          "stop" : 1599419767389,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: identifierNext]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Submitting password and proceeding to HomePage",
+        "time" : {
+          "start" : 1599419767985,
+          "stop" : 1599419767988,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Submitting password and proceeding to HomePage"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting, clearing and sending keys to Custom input: Proxy element for: DefaultElementLocator 'By.name: password'",
+        "time" : {
+          "start" : 1599419788675,
+          "stop" : 1599419788675,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting, clearing and sending keys to Custom input: Proxy element for: DefaultElementLocator 'By.name: password'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419788675,
+          "stop" : 1599419788676,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: passwordNext]",
+        "time" : {
+          "start" : 1599419802141,
+          "stop" : 1599419802142,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> id: passwordNext]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Verifying if account window is displayed ",
+        "time" : {
+          "start" : 1599419802895,
+          "stop" : 1599419802896,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Verifying if account window is displayed "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //img[@class='gb_La gbii']] ) is displayed",
+        "time" : {
+          "start" : 1599419825287,
+          "stop" : 1599419825288,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //img[@class='gb_La gbii']] ) is displayed"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Opening a new letter form",
+        "time" : {
+          "start" : 1599419829525,
+          "stop" : 1599419829525,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Opening a new letter form"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> css selector: div.T-I.T-I-KE.L3]",
+        "time" : {
+          "start" : 1599419832839,
+          "stop" : 1599419832840,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> css selector: div.T-I.T-I-KE.L3]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Filling fields of the letter",
+        "time" : {
+          "start" : 1599419853402,
+          "stop" : 1599419853402,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Filling fields of the letter"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //textarea[@class='vO']]",
+        "time" : {
+          "start" : 1599419870067,
+          "stop" : 1599419870067,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //textarea[@class='vO']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419870068,
+          "stop" : 1599419870068,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> name: subjectbox]",
+        "time" : {
+          "start" : 1599419872899,
+          "stop" : 1599419872900,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> name: subjectbox]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419872900,
+          "stop" : 1599419872901,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]",
+        "time" : {
+          "start" : 1599419876517,
+          "stop" : 1599419876518,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419876518,
+          "stop" : 1599419876520,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Sending the letter",
+        "time" : {
+          "start" : 1599419879734,
+          "stop" : 1599419879735,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Sending the letter"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]",
+        "time" : {
+          "start" : 1599419879976,
+          "stop" : 1599419879976,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419879976,
+          "stop" : 1599419879977,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Opening the page with sent letters",
+        "time" : {
+          "start" : 1599419881201,
+          "stop" : 1599419881202,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Opening the page with sent letters"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> css selector: div.TN.bzz.aHS-bnu]",
+        "time" : {
+          "start" : 1599419881365,
+          "stop" : 1599419881366,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> css selector: div.TN.bzz.aHS-bnu]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419881366,
+          "stop" : 1599419881367,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Getting text from the subject of a letter ",
+        "time" : {
+          "start" : 1599419882665,
+          "stop" : 1599419882666,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Getting text from the subject of a letter "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]",
+        "time" : {
+          "start" : 1599419885530,
+          "stop" : 1599419885531,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419885532,
+          "stop" : 1599419885533,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Calculating the size of letter List: 2",
+        "time" : {
+          "start" : 1599419888420,
+          "stop" : 1599419888421,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Calculating the size of letter List: 2"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]",
+        "time" : {
+          "start" : 1599419893665,
+          "stop" : 1599419893666,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419893666,
+          "stop" : 1599419893667,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net",
+        "time" : {
+          "start" : 1599419895642,
+          "stop" : 1599419895643,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Selecting last letter check box",
+        "time" : {
+          "start" : 1599419895643,
+          "stop" : 1599419895644,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Selecting last letter check box"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]",
+        "time" : {
+          "start" : 1599419896157,
+          "stop" : 1599419896157,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked",
+        "time" : {
+          "start" : 1599419896460,
+          "stop" : 1599419896461,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Deleting selected letter",
+        "time" : {
+          "start" : 1599419899556,
+          "stop" : 1599419899557,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Deleting selected letter"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]",
+        "time" : {
+          "start" : 1599419899703,
+          "stop" : 1599419899703,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419899704,
+          "stop" : 1599419899704,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Calculating the size of letter List: 1",
+        "time" : {
+          "start" : 1599419901767,
+          "stop" : 1599419901767,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Calculating the size of letter List: 1"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]",
+        "time" : {
+          "start" : 1599419902462,
+          "stop" : 1599419902462,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419902462,
+          "stop" : 1599419902463,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net",
+        "time" : {
+          "start" : 1599419904441,
+          "stop" : 1599419904442,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Deleting default letter to clean up the mail box ",
+        "time" : {
+          "start" : 1599419904442,
+          "stop" : 1599419904442,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Deleting default letter to clean up the mail box "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Selecting last letter check box",
+        "time" : {
+          "start" : 1599419904443,
+          "stop" : 1599419904443,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Selecting last letter check box"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]",
+        "time" : {
+          "start" : 1599419905483,
+          "stop" : 1599419905484,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked",
+        "time" : {
+          "start" : 1599419905920,
+          "stop" : 1599419905920,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Deleting selected letter",
+        "time" : {
+          "start" : 1599419908470,
+          "stop" : 1599419908471,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Deleting selected letter"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]",
+        "time" : {
+          "start" : 1599419908804,
+          "stop" : 1599419908805,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7687d17168cfab85061eab218c3dd71f)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419908805,
+          "stop" : 1599419908805,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Waiting for the ready state of document ",
+        "time" : {
+          "start" : 1599419910200,
+          "stop" : 1599419910201,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Waiting for the ready state of document "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Default letter deleted ",
+        "time" : {
+          "start" : 1599419911197,
+          "stop" : 1599419911197,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "log",
+          "value" : "Default letter deleted "
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User{id=4, email='gavruloepam@gmail.com', password='myprojectmailsende@5'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 62,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "I am in onTestSuccess method testSendAndDeleteLetter succeed",
+      "time" : {
+        "start" : 1599419911198,
+        "stop" : 1599419911199,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "log",
+        "value" : "I am in onTestSuccess method testSendAndDeleteLetter succeed"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Screenshot captured for test case:testSendAndDeleteLetter",
+      "time" : {
+        "start" : 1599419911199,
+        "stop" : 1599419911199,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "log",
+        "value" : "Screenshot captured for test case:testSendAndDeleteLetter"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ac7901389a8d8af6",
+      "name" : "saveScreenShot",
+      "source" : "ac7901389a8d8af6.png",
+      "type" : "image/png",
+      "size" : 65060
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 65,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599419914514,
+      "stop" : 1599419920823,
+      "duration" : 6309
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Driver quit",
+      "time" : {
+        "start" : 1599419914515,
+        "stop" : 1599419914515,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "log",
+        "value" : "Driver quit"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcase.LogInSendLetterAndDeleteLetterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.LogInSendLetterAndDeleteLetterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSendAndDeleteLetter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestGmail"
+  }, {
+    "name" : "suite",
+    "value" : "testcase.LogInSendLetterAndDeleteLetterTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcase.LogInSendLetterAndDeleteLetterTest"
+  }, {
+    "name" : "host",
+    "value" : "Nazar"
+  }, {
+    "name" : "thread",
+    "value" : "7820@Nazar.TestNG-PoolService-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "User{id=4, email='gavruloepam@gmail.com', password='myprojectmailsende@5'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da7c7e548eb57fb3.json",
+  "parameterValues" : [ "User{id=4, email='gavruloepam@gmail.com', password='myprojectmailsende@5'}" ]
+}

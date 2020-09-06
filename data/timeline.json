@@ -1,0 +1,86 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Nazar",
+    "children" : [ {
+      "name" : "7820@Nazar.TestNG-PoolService-1(16)",
+      "children" : [ {
+        "name" : "testSendAndDeleteLetter",
+        "uid" : "da7c7e548eb57fb3",
+        "parentUid" : "ff8bd4a685c394626a5d908a8310326e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599419730181,
+          "stop" : 1599419914507,
+          "duration" : 184326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{id=4, email='gavruloepam@gmail.com', password='myprojectmailsende@5'}" ]
+      }, {
+        "name" : "testSendAndDeleteLetter",
+        "uid" : "67b66a7434090e44",
+        "parentUid" : "ff8bd4a685c394626a5d908a8310326e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599419328445,
+          "stop" : 1599419707123,
+          "duration" : 378678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{id=1, email='testepampetro@gmail.com', password='myprojectmailsende@2'}" ]
+      } ],
+      "uid" : "ff8bd4a685c394626a5d908a8310326e"
+    }, {
+      "name" : "7820@Nazar.TestNG-PoolService-2(17)",
+      "children" : [ {
+        "name" : "testSendAndDeleteLetter",
+        "uid" : "1d948f04e49b3fda",
+        "parentUid" : "97f077a856f8015671015b16afb5e963",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599419328462,
+          "stop" : 1599419727791,
+          "duration" : 399329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{id=2, email='test1pavlo@gmail.com', password='myprojectmailsende@3'}" ]
+      } ],
+      "uid" : "97f077a856f8015671015b16afb5e963"
+    }, {
+      "name" : "7820@Nazar.TestNG-PoolService-0(15)",
+      "children" : [ {
+        "name" : "testSendAndDeleteLetter",
+        "uid" : "44b3f2639e317b1c",
+        "parentUid" : "a699020916c98a5cb6a2b832cd7aff0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599419726819,
+          "stop" : 1599419920558,
+          "duration" : 193739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{id=3, email='dimamalash5@gmail.com', password='myprojectmailsende@4'}" ]
+      }, {
+        "name" : "testSendAndDeleteLetter",
+        "uid" : "c2a29eb1a975950d",
+        "parentUid" : "a699020916c98a5cb6a2b832cd7aff0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599419328475,
+          "stop" : 1599419722451,
+          "duration" : 393976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "User{id=0, email='testepamivan@gmail.com', password='myprojectmailsende@1'}" ]
+      } ],
+      "uid" : "a699020916c98a5cb6a2b832cd7aff0e"
+    } ],
+    "uid" : "da57b700a9f36a5869d57530e6bfe66d"
+  } ]
+}

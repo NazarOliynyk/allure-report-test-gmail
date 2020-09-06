@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "fdb30c7dc70587276d7726dc09b0008d",
+    "name" : "TestGmail",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

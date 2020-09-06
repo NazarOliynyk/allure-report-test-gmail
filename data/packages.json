@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.LogInSendLetterAndDeleteLetterTest",
+    "children" : [ {
+      "name" : "testSendAndDeleteLetter",
+      "uid" : "67b66a7434090e44",
+      "parentUid" : "a48d0e765e4853927e3aa12e3d413e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419328445,
+        "stop" : 1599419707123,
+        "duration" : 378678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{id=1, email='testepampetro@gmail.com', password='myprojectmailsende@2'}" ]
+    }, {
+      "name" : "testSendAndDeleteLetter",
+      "uid" : "1d948f04e49b3fda",
+      "parentUid" : "a48d0e765e4853927e3aa12e3d413e5c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1599419328462,
+        "stop" : 1599419727791,
+        "duration" : 399329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{id=2, email='test1pavlo@gmail.com', password='myprojectmailsende@3'}" ]
+    }, {
+      "name" : "testSendAndDeleteLetter",
+      "uid" : "c2a29eb1a975950d",
+      "parentUid" : "a48d0e765e4853927e3aa12e3d413e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419328475,
+        "stop" : 1599419722451,
+        "duration" : 393976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{id=0, email='testepamivan@gmail.com', password='myprojectmailsende@1'}" ]
+    }, {
+      "name" : "testSendAndDeleteLetter",
+      "uid" : "44b3f2639e317b1c",
+      "parentUid" : "a48d0e765e4853927e3aa12e3d413e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419726819,
+        "stop" : 1599419920558,
+        "duration" : 193739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{id=3, email='dimamalash5@gmail.com', password='myprojectmailsende@4'}" ]
+    }, {
+      "name" : "testSendAndDeleteLetter",
+      "uid" : "da7c7e548eb57fb3",
+      "parentUid" : "a48d0e765e4853927e3aa12e3d413e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599419730181,
+        "stop" : 1599419914507,
+        "duration" : 184326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "User{id=4, email='gavruloepam@gmail.com', password='myprojectmailsende@5'}" ]
+    } ],
+    "uid" : "testcase.LogInSendLetterAndDeleteLetterTest"
+  } ]
+}
